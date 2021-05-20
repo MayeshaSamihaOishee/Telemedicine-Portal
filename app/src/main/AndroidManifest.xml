@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sasthoseba.com.sasthoseba">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Patient_NavigationDrawer" />
+        <activity android:name=".StartupPage" />
+        <activity android:name=".Patient_TablayoutLoginSignup" />
+        <activity android:name=".Doctor_TabLayoutLoginSignup" />
+        <activity android:name=".Patient_FindDoctor_GridItems" />
+        <activity android:name=".CommonHomepageListviewColorActivity" />
+        <activity android:name=".fragment.Doctor_NavigationDrawer" />
+        <activity android:name=".Patient_TablayoutProfile" />
+        <activity android:name=".Patient_EditBasicInfo" />
+        <activity
+            android:name=".Patient_EditMedicalInfo"
+            android:label="@string/title_activity_patient__edit_medical_info"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Patient_Question" />
+        <activity android:name=".Patient_MyQuestion" />
+        <activity android:name=".RecyclerDoctorOnline_Orthopedic" />
+        <activity android:name=".RecyclerDoctorOnline_Medicine" />
+        <activity android:name=".RecyclerDoctorOnline_MentalHealth" />
+        <activity android:name=".RecyclerDoctorOnline_Child" />
+        <activity android:name=".RecyclerDoctorOnline_MaternalHealth" />
+        <activity android:name=".RecyclerDoctorOnline_Dental" />
+        <activity android:name=".Doctor_profile" />
+        <activity android:name=".Common_Question_Details" />
+        <activity android:name=".Doctor_Give_Answer" />
+        <activity android:name=".Doctor_MyAnswer" />
+        <activity android:name=".Doctor_OnlineProfileDetails" />
+        <activity android:name=".VideoCalltoDoc"></activity>
+    </application>
+
+</manifest>

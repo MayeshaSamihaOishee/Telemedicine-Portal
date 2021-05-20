@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="sasthoseba.com.sasthoseba.Patient_EditMedicalInfo">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="আপনার কি নিম্নলিখিত যেকোনো রোগ / লক্ষণ  আগে ছিল বা এখন আছে? যদি হ্যাঁ হয়  তাহলে নীচের বক্স গুলো চেক করুন। "
+        android:layout_marginBottom="20dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@android:color/holo_green_dark"
+
+        />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="রক্তশূন্যতা" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="বাত / তলানি" />
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="হাঁপানি রোগ" />
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="কোমর ব্যথা / আঘাত" />
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="রক্তপাত বা রক্তের ব্যাধি" />
+    <CheckBox
+        android:id="@+id/checkBox6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="হাড় বা সংযোগস্থল সমস্যা" />
+    <CheckBox
+        android:id="@+id/checkBox7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="ভাঙা হাড়" />
+    <CheckBox
+        android:id="@+id/checkBox8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="বুক ব্যাথা" />
+    <CheckBox
+        android:id="@+id/checkBox9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="চিকেন পক্স বা কোঁচদাদ" />
+    <CheckBox
+        android:id="@+id/checkBox10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="দীর্ঘকালস্থায়ী / পুনরাবৃত্ত সংক্রমণ" />
+    <CheckBox
+        android:id="@+id/checkBox11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="দীর্ঘস্থায়ী কাশি" />
+    <CheckBox
+        android:id="@+id/checkBox12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="বিষণ্নতা বা উদ্বেগ" />
+    <CheckBox
+        android:id="@+id/checkBox13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="ডায়াবেটিস" />
+    <CheckBox
+        android:id="@+id/checkBox14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="মাথা ঘোরা বা মূচ্র্ছা" />
+    <CheckBox
+        android:id="@+id/checkBox15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="ড্রাগ বা অ্যালকোহল নির্ভরতা" />
+    <CheckBox
+        android:id="@+id/checkBox16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="খাদ্যে অনিয়ম" />
+    <CheckBox
+        android:id="@+id/checkBox17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="আবেগময় বা মানসিক সমস্যা" />
+    <CheckBox
+        android:id="@+id/checkBox18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="মৃগীরোগ" />
+    <CheckBox
+        android:id="@+id/checkBox19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="চোখের সমস্যা" />
+    <CheckBox
+        android:id="@+id/checkBox20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="শ্রবণ ক্ষমতার হ্রাস বা কানের সমস্যা" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <CheckBox
+        android:id="@+id/checkBox21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="হৃদপিন্ডে সমস্যা / হৃদপিন্ডে হঠাৎ আক্রমণ" />
+
+    <CheckBox
+        android:id="@+id/checkBox22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="উচ্চ্ রক্তচাপ" />
+    <CheckBox
+        android:id="@+id/checkBox23"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="ইমিউনো দমন" />
+    <CheckBox
+        android:id="@+id/checkBox24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="কিডনি রোগ" />
+    <CheckBox
+        android:id="@+id/checkBox25"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="হাঁটু ব্যথা / আঘাত" />
+    <CheckBox
+        android:id="@+id/checkBox26"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="লিভার রোগ / হেপাটাইটিস" />
+    <CheckBox
+        android:id="@+id/checkBox27"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="অঙ্গের ক্ষতি" />
+    <CheckBox
+        android:id="@+id/checkBox28"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="ফুসফুসের সমস্যা" />
+    <CheckBox
+        android:id="@+id/checkBox29"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="হাম" />
+    <CheckBox
+        android:id="@+id/checkBox30"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="গাল-গলা ফুলা" />
+    <CheckBox
+        android:id="@+id/checkBox31"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="ঘাড় ব্যথা / আঘাত" />
+    <CheckBox
+        android:id="@+id/checkBox32"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="অসাড়তা" />
+    <CheckBox
+        android:id="@+id/checkBox33"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="বুক ধড়ফড়/ অনিয়মিত হার্ট বীট" />
+    <CheckBox
+        android:id="@+id/checkBox34"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="গুরুতর মাথাব্যাথা" />
+    <CheckBox
+        android:id="@+id/checkBox35"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="গুরুতর দুর্বলতা বা ক্লান্তি" />
+    <CheckBox
+        android:id="@+id/checkBox36"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="নিঃশ্বাসের দুর্বলতা" />
+    <CheckBox
+        android:id="@+id/checkBox37"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="কাঁধ, কনুই, কব্জি বা হাতের ব্যথা" />
+    <CheckBox
+        android:id="@+id/checkBox38"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="স্কিন সমস্যা বা দীর্ঘস্থায়ী ফুসকুড়ি" />
+    <CheckBox
+        android:id="@+id/checkBox39"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="পেট বা অন্ত্রের সমস্যা" />
+    <CheckBox
+        android:id="@+id/checkBox40"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="স্ট্রোক বা প্যারালাইসিস" />
+
+
+
+
+
+    <Button
+        android:id="@+id/update"
+        android:layout_below="@+id/nine"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="35dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_green_light"
+        android:gravity="center"
+        android:text="সঞ্চয় করুন"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        />
+</LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

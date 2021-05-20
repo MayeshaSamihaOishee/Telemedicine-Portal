@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">স্বাস্থ্যসেবা</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="Tagline">প্রতিটি জীবন, প্রতিটি মুহূর্ত, প্রতিদিন</string>
+    <string name="ImDoctor">আমি একজন ডাক্তার</string>
+    <string name="ImPatient">আমি একজন রোগী</string>
+    <string name="name">নাম</string>
+    <string name="LoginTo">আপনার অ্যাকাউন্টে লগ ইন করুন</string>
+    <string name="PhoneNo">মোবাইল নম্বর</string>
+    <string name="Password">পাসওয়ার্ড</string>
+    <string name="ForgotPassword">পাসওয়ার্ড ভুলে গেছেন?</string>
+    <string name="Login">লগইন</string>
+    <string name="Logout">বাহির হোন</string>
+
+
+    <string name="CreateAccount">একটি অ্যাকাউন্ট তৈরি করুন</string>
+    <string name="FirstName">নামের প্রথম অংশ</string>
+    <string name="LastName">নামের শেষাংশ</string>
+    <string name="DateOfBirth">জন্ম তারিখ (দিন / মাস / বছর)</string>
+    <string name="Gender">লিঙ্গ</string>
+    <string name="Male">পুরুষ</string>
+    <string name="Female">মহিলা</string>
+    <string name="Email">ই-মেইল</string>
+    <string name="ConfirmPassword">পাসওয়ার্ড নিশ্চিত করুন</string>
+    <string name="DoctorsRegisNo">ডাক্তারের নিবন্ধন নম্বর</string>
+    <string name="DoctorsSpecialField">ডাক্তারের বিশেষায়িত ক্ষেত্র</string>
+    <string name="Register">নিবন্ধন করুন</string>
+
+    <string name="Height">উচ্চতা</string>
+    <string name="Feet">ফুট</string>
+    <string name="Inches">ইঞ্চি</string>
+    <string name="Weight">ওজন (কেজি)</string>
+    <string name="BloodGroup">রক্তের গ্রুপ</string>
+    <string name="Done">সম্পন্ন</string>
+
+    <string name="UpdateMedicalHistory">আপনার চিকিত্সা তথ্য আপডেট করুন</string>
+    <string name="Diabetes">ডায়াবেটিস</string>
+    <string name="Asthma">হাঁপানি রোগ</string>
+    <string name="Epilepsy">মৃগীরোগ</string>
+    <string name="HeartDisease">হৃদরোগ</string>
+    <string name="Allergies">এলার্জি</string>
+    <string name="GastricUlcers">গ্যাস্ট্রিক আলসার</string>
+    <string name="LowBloodPressure">নিম্ন রক্তচাপ</string>
+    <string name="HighBloodPressure">উচ্চ রক্তচাপ</string>
+    <string name="Update">আপডেট করুন</string>
+    <string name="UpdateDone">আপডেট</string>
+
+    <string name="EducationalQualification">শিক্ষাগত যোগ্যতা</string>
+    <string name="ViewProfile">প্রোফাইল দেখুন</string>
+    <string name="HelpLine">হেল্পলাইন</string>
+    <string name="AboutUs">আমাদের সম্পর্কে</string>
+
+    <string name="EditBasicInfo">প্রাথমিক তথ্য সম্পাদন করুন</string>
+    <string name="ExistingCondition">বিদ্যমান অবস্থা</string>
+
+    <string name="QuesPageTitle">আপনার প্রশ্ন </string>
+    <string name="AllQuestionAnsTitle">জিজ্ঞাসিত প্রশ্নসমূহ ও উত্তর</string>
+    <string name="MyQuestion">আমার জিজ্ঞাসিত প্রশ্নসমূহ ও উত্তর</string>
+    <string name="QuesPageType">প্রশ্নের ধরন নির্বাচন করুন</string>
+    <string name="Question">আপনার প্রশ্নটি করুন</string>
+    <string name="QuestionAnsTitle">সব প্রশ্নের উত্তর দেখুন</string>
+
+
+    <string name="send">প্রেরণ করুন</string>
+
+    <string name="DoctorSchedule">ডাক্তারের সময়সূচী</string>
+    <string name="sendReply">একটি উত্তর পাঠান</string>
+    <string name="WriteOpinion">আপনার মতামত লিখুন</string>
+    <string name="Dental">ডেন্টাল</string>
+    <string name="Medical">চিকিৎসা</string>
+    <string name="CallDate">কল তারিখ</string>
+    <string name="CallTime">কল সময়</string>
+    <string name="CallDuration">কল সময়কাল</string>
+    <string name="title_activity_parent_of_answer_fragment">parent_of_answerFragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_doctor__tab_layout_login_signup">Doctor_TabLayoutLoginSignup
+    </string>
+    <string name="title_activity_patient__edit_medical_info">Patient_EditMedicalInfo</string>
+</resources>

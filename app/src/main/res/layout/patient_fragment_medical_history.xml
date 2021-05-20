@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="sasthoseba.com.sasthoseba.fragment.Patient_MedicalHistoryFragment">
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:text="পূর্ববর্তী বা বর্তমান রোগ/লক্ষন সমূহের বিবরণ"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@android:color/holo_green_dark"
+            />
+
+        <TextView
+            android:id="@+id/one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:textSize="16dp"
+            android:visibility="visible"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:id="@+id/two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:textSize="16dp"
+            android:visibility="gone"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:id="@+id/three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:textSize="16dp"
+            android:visibility="visible"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:id="@+id/four"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:textSize="16dp"
+            android:visibility="visible"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:id="@+id/five"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:textSize="16dp"
+            android:visibility="gone"
+            android:layout_marginBottom="10dp" />
+
+
+
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/six"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:textSize="16dp"
+            android:visibility="visible"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:id="@+id/seven"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:textSize="16dp"
+            android:visibility="gone"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:id="@+id/eight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:textSize="16dp"
+            android:visibility="visible"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:id="@+id/nine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:textSize="16dp"
+            android:visibility="visible"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:id="@+id/ten"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:textSize="16dp"
+            android:visibility="gone"
+            android:layout_marginBottom="10dp" />
+        <TextView
+            android:id="@+id/eleven"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:textSize="16dp"
+            android:visibility="gone"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:id="@+id/twelve"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:textSize="16dp"
+            android:visibility="gone"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:id="@+id/thirteen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:textSize="16dp"
+            android:visibility="gone"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:id="@+id/fourteen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:textSize="16dp"
+            android:visibility="visible"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:id="@+id/fifteen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:textSize="16dp"
+            android:visibility="gone"
+            android:layout_marginBottom="10dp" />
+
+
+
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/sixteen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:textSize="16dp"
+            android:visibility="visible"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:id="@+id/seventeen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:textSize="16dp"
+            android:visibility="gone"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:id="@+id/eighteen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:textSize="16dp"
+            android:visibility="gone"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:id="@+id/nineteen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:textSize="16dp"
+            android:visibility="gone"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:id="@+id/twenty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:textSize="16dp"
+            android:visibility="gone"
+            android:layout_marginBottom="10dp" />
+
+
+
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/twentyone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:textSize="16dp"
+            android:visibility="visible"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:id="@+id/twentytwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:textSize="16dp"
+            android:visibility="gone"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:id="@+id/twentythree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:textSize="16dp"
+            android:visibility="gone"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:id="@+id/twentyfour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:textSize="16dp"
+            android:visibility="gone"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:id="@+id/twentyfive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:textSize="16dp"
+            android:visibility="gone"
+            android:layout_marginBottom="10dp" />
+
+
+
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/twentysix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:textSize="16dp"
+            android:visibility="gone"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:id="@+id/twentyseven"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:textSize="16dp"
+            android:visibility="gone"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:id="@+id/twentyeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:textSize="16dp"
+            android:visibility="gone"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:id="@+id/twentynine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:textSize="16dp"
+            android:visibility="gone"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:id="@+id/thirty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:textSize="16dp"
+            android:visibility="gone"
+            android:layout_marginBottom="10dp" />
+
+
+
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/thirtyone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:textSize="16dp"
+            android:visibility="gone"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:id="@+id/thirtytwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:textSize="16dp"
+            android:visibility="gone"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:id="@+id/thirtythree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:textSize="16dp"
+            android:visibility="gone"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:id="@+id/thirtyfour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:textSize="16dp"
+            android:visibility="gone"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:id="@+id/thirtyfive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:textSize="16dp"
+            android:visibility="gone"
+            android:layout_marginBottom="10dp" />
+
+
+
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/thirtysix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:textSize="16dp"
+            android:visibility="gone"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:id="@+id/thirtyseven"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:textSize="16dp"
+            android:visibility="gone"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:id="@+id/thirtyeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:textSize="16dp"
+            android:visibility="gone"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:id="@+id/thirtynine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:textSize="16dp"
+            android:visibility="gone"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:id="@+id/forty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:textSize="16dp"
+            android:visibility="gone"
+            android:layout_marginBottom="10dp" />
+
+
+        <Button
+            android:id="@+id/medicalHistory"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="35dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="15dp"
+            android:background="@android:color/holo_green_light"
+            android:gravity="center"
+            android:text="সম্পাদন করুন"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            />
+    </LinearLayout>
+</ScrollView>
+</FrameLayout>

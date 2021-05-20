@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="sasthoseba.com.sasthoseba.Doctor_Give_Answer"
+        android:orientation="vertical">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?android:attr/actionBarSize"
+                android:background="@android:color/holo_green_light"
+                app:popupTheme="@style/AppTheme.PopupOverlay">
+
+                <TextView
+                    android:id="@+id/toolbar_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/app_name"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="22sp" />
+            </android.support.v7.widget.Toolbar>
+        </android.support.design.widget.AppBarLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="30dp"
+                    android:gravity="right"
+                    android:text="00/00/0000"
+                    android:textAlignment="center"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/dateTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/date"
+                    android:layout_toLeftOf="@+id/date"
+                    android:layout_toStartOf="@+id/date"
+                    android:text="পোস্টের তারিখঃ  "
+                    android:textAlignment="center"
+                    android:textColor="@android:color/holo_green_dark"
+                    android:textSize="14dp"
+                    tools:textColor="@android:color/holo_green_dark" />
+
+
+                <TextView
+                    android:id="@+id/questionTypeDetails"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/date"
+                    android:text="............."
+                    android:textAlignment="center"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/questionType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/dateTitle"
+                    android:layout_toLeftOf="@+id/questionTypeDetails"
+                    android:layout_toStartOf="@+id/questionTypeDetails"
+                    android:text="প্রশ্নের ধরণঃ  "
+                    android:textAlignment="center"
+                    android:textColor="@android:color/holo_green_dark"
+                    android:textSize="14dp"
+                    tools:textColor="@android:color/holo_green_dark" />
+
+
+                <TextView
+                    android:id="@+id/question"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/dateTitle"
+                    android:layout_marginTop="40dp"
+                    android:text="প্রশ্ন"
+                    android:textColor="@android:color/holo_green_dark"
+                    android:textSize="18dp"
+                    tools:textColor="@android:color/holo_green_dark" />
+
+                <TextView
+                    android:id="@+id/questionDetails"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/question"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="3dp"
+                    android:text="........."
+                    android:textSize="16dp" />
+
+
+
+                <EditText
+                    android:id="@+id/Answer"
+                    android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/textinputborder"
+                    android:hint="আপনার উত্তরটি লিখুন"
+                    android:paddingLeft="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:focusable="true"
+                    android:gravity="top|left"
+                    android:inputType="textMultiLine"
+                    android:paddingTop="7dp"
+                    android:paddingBottom="7dp"
+                    android:scrollbars="vertical"
+                    android:layout_below="@+id/questionDetails"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:textColorLink="#1e4e41"
+                    >
+                </EditText>
+
+
+                <Button
+                    android:id="@+id/sendAnswer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/Answer"
+                    android:layout_gravity="right"
+                    android:background="@android:color/holo_green_light"
+                    android:gravity="center"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/send"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+        </ScrollView>
+    </LinearLayout>

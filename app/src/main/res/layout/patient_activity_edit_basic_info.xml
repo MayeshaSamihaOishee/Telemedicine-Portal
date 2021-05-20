@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sasthoseba.com.sasthoseba.Patient_EditBasicInfo"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/heighttext"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill"
+        android:text="@string/Height"
+        android:layout_marginBottom="3dp"
+        android:textSize="20dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#1e4e41"/>
+
+    <EditText
+        android:id="@+id/feet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="3dp"
+        android:hint="@string/Feet"
+        android:inputType="number"
+        android:textSize="19dp"
+        android:maxLength="1"
+        android:layout_toRightOf="@+id/heighttext"
+        android:drawablePadding="10dp"
+        />
+
+    <TextView
+        android:id="@+id/coma"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill"
+        android:text="'"
+        android:layout_toRightOf="@+id/feet"
+        android:layout_marginBottom="0dp"
+        android:textSize="20dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#1e4e41"/>
+
+    <EditText
+        android:id="@+id/inch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="3dp"
+        android:textSize="19dp"
+        android:hint="@string/Inches"
+        android:layout_toRightOf="@+id/coma"
+        android:inputType="number"
+        android:maxLength="2"
+        android:layout_marginBottom="0dp"
+        android:drawablePadding="10dp"/>
+
+    <TextView
+        android:id="@+id/comma"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="1dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill"
+        android:text="''"
+        android:layout_toRightOf="@+id/inch"
+        android:layout_marginBottom="10dp"
+        android:textSize="20dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#1e4e41"/>
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:hint="@string/Weight"
+        android:inputType="numberDecimal"
+        android:maxLength="3"
+        android:layout_below="@+id/heighttext"
+        android:drawablePadding="10dp"/>
+
+    <EditText
+        android:id="@+id/bloodgroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:hint="@string/BloodGroup"
+        android:maxLength="3"
+        android:layout_below="@+id/weight"
+        android:drawablePadding="10dp"
+        android:digits="aboABO+-" />
+
+    <Button
+        android:id="@+id/uploadImage"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="25dp"
+        android:background="@android:color/holo_green_light"
+        android:gravity="center"
+        android:text="@string/Done"
+        android:onClick="donemethod"
+        android:layout_below="@+id/bloodgroup"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp" />
+</RelativeLayout>

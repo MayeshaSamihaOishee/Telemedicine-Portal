@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/view_profile"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="প্রোফাইল দেখুন" />
+        <item
+            android:id="@+id/my_answer"
+            android:icon="@drawable/ic_favorite_black_24dp"
+            android:title="আমার উত্তর" />
+
+        <item
+            android:id="@+id/help"
+            android:icon="@drawable/ic_help"
+            android:title="সাহায্য" />
+        <item
+            android:id="@+id/about_us"
+            android:icon="@drawable/ic_group_black_24dp"
+            android:title="আমাদের সম্পর্কে" />
+    </group>
+
+    <item android:title="যোগাযোগ করুন">
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="শেয়ার করুন" />
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_menu_send"
+                android:title="বাহির হোন" />
+        </menu>
+    </item>
+
+</menu>
